@@ -1,0 +1,26 @@
+{
+  "name": "pcos-health-tracker-api",
+  "version": "1.0.0",
+  "description": "A backend API for a PCOS health tracker",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pcos",
+    "health",
+    "tracker",
+    "api"
+  ],
+  "author": "Nisha Shetty",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
